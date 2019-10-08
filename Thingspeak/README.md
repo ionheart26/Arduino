@@ -1,4 +1,4 @@
-# WiFi
+# WiFi Client
 
 get data from **_sensor_**<br>
 import data from **_www.kma.go.kr_**<br>
