@@ -4,7 +4,7 @@
 
 /*
  *  
- *  You need to get ssid and pw
+ *  You need ssid and pw
  *
  */
  
@@ -131,7 +131,7 @@ void requestToServer(const char* host, String url){
     Serial.print("Requesting URL: ");
     Serial.println(url);
 
-    // This will send the request to the server
+    // send the request to the server
     client.print(String("GET ") + url + " HTTP/1.1\r\n" +
                  "Host: " + host + "\r\n" +
                  "Connection: close\r\n\r\n");
